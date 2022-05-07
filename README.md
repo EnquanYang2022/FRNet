@@ -5,5 +5,5 @@ Feature_reconstruction_Network_for_RGB-D_Semantic_Segmentation
 ![image](https://github.com/EnquanYang2022/FRNet/blob/main/imags/model.png)
 </div>
 <div align=center>
-<img src="https://github.com/EnquanYang2022/FRNet/blob/main/imags/model.png" width="180" height="105"> width="180" height="105"/>
+<img src="https://github.com/EnquanYang2022/FRNet/blob/main/imags/model.png">
 </div>
