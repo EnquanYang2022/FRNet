@@ -179,10 +179,9 @@ class serialaspp(nn.Module):
         # return out
 
 
-# BBSNet
-class BBSNet(nn.Module):
+class FRNet(nn.Module):
     def __init__(self, channel=32,n_class=None):
-        super(BBSNet, self).__init__()
+        super(FRNet, self).__init__()
 
         # Backbone model
 
@@ -397,12 +396,12 @@ class BBSNet(nn.Module):
 if __name__ == '__main__':
     x = V(t.randn(2,3,480,640))
     y = V(t.randn(2,3,480,640))
-    net = BBSNet(n_class=41)
+    net = FRNet(n_class=41)
     net1= net(x,y)
     print(net1.shape)
 
 
     # from torchsummary import summary
-    # model = BBSNet(n_class=41)
+    # model = FRNet(n_class=41)
     # model = model.cuda()
     # summary(model, input_size=[(3, 480, 640),(3,480,640)],batch_size=6)

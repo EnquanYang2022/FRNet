@@ -1,5 +1,5 @@
 {
-    "model_name": "bbsnet",
+    "model_name": "FRNet",
 
     "dataset": "nyuv2",
     "root": "/home/yangenquan/PycharmProjects/NYUv2",

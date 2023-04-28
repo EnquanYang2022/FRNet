@@ -26,9 +26,9 @@ def get_model(cfg):
         from .models.rednet import RedNet
         return RedNet(num_classes=cfg['n_classes'], pretrained=True)
 
-    if cfg['model_name'] == 'bbsnet':
-        from .models.BBSnetmodel.BBSnet import BBSNet
-        return BBSNet(n_class=cfg['n_classes'])
+    if cfg['model_name'] == 'FRNet':
+        from .models.FRNet import FRNet
+        return FRNet(n_class=cfg['n_classes'])
 
 
 
